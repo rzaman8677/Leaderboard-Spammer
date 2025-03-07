@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cow Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Click the Cow!</h1>
+    <p>Click as many times as you can in <b>15 seconds</b></p>
+
+    <label for="playerName">Enter your name:</label>
+    <input type="text" id="playerName" placeholder="Your name" />
+    <button id="startButton">Play</button>
+    <button id="clearLeaderboard">Clear Leaderboard</button>
+
+    <h2>Clicks: <span id="clicks">0</span></h2>
+    <img id="cow" src="cow.png" alt="Cow" />
+    <p id="timer">Time Left: 15s</p>
+
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Speed</th>
+        <th>Rate</th>
+        <th>Date</th>
+      </tr>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
